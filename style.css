@@ -1,9 +1,13 @@
+body {
+    background-color: #30404d;
+}
 .calcculator{
     width: 400px;
     background-color: #eee;
     margin: 50px auto;
     border: 1px solid black;
-    padding: 4px;
+    padding: 8px;
+    border-radius: 8px;
 }
 .heading{
     padding: 4px;
