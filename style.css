@@ -1,0 +1,54 @@
+.calcculator{
+    width: 400px;
+    background-color: #eee;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 4px;
+}
+.heading{
+    padding: 4px;
+}
+.navbar i{
+    font-size: 24px;
+}
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+}
+.screen_input{
+    padding-right: 8px;
+    font-size: 24px;
+}
+.screen_result{
+    font-size: 48px;
+    overflow: hidden;
+}
+.row_btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+}
+.keyboard button{
+    border: 1px solid grey;
+    width: 24%;
+    font-size: 24px;
+}
+.sqr_btn, .sqrt_btn{
+    position: relative;
+}
+.sqr_btn span{
+    font-size: 16px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.sqrt1{
+    font-size: 12px;
+    position: absolute;
+}
+.sqrt2{
+    position: absolute;
+    top: 8%;
+    left: 49%;
+}

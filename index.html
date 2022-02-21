@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calcculator">
+            <div class="heading">
+                <h2>Calculator</h2>
+            </div>
+            <div class="navbar">
+                <i class="fas fa-bars"></i>
+                <h3>Standard</h3>
+            </div>
+            <div class="screen">
+                <span class="screen_input">0</span>
+            </div>
+            <div class="screen">
+                <span class="screen_result">0</span>
+            </div>
+            <div class="keyboard">
+                <div class="row_btn">
+                    <button class="ac_btn btn btn-danger pt-3 pb-3">AC</button>
+                    <button class="sqr_btn btn btn-secondary pt-3 pb-3">x <span>2</span> </button>
+                    <button class="sqrt_btn btn btn-secondary pt-3 pb-3">
+                        <span class="sqrt1">2</span>&radic;x <span class="sqrt2">&mdash;</span>
+                    </button>
+                    <button value="/" class="btn1 btn btn-secondary pt-3 pb-3">&divide;</button>
+                </div>
+                <div class="row_btn">
+                    <button value="7" class="btn1 btn btn-secondary pt-3 pb-3">7</button>
+                    <button value="8" class="btn1 btn btn-secondary pt-3 pb-3">8</button>
+                    <button value="9" class="btn1 btn btn-secondary pt-3 pb-3">9</button>
+                    <button value="*" class="btn1 btn btn-secondary pt-3 pb-3">x</button>
+                </div>
+                <div class="row_btn">
+                    <button value="4" class="btn1 btn btn-secondary pt-3 pb-3">4</button>
+                    <button value="5" class="btn1 btn btn-secondary pt-3 pb-3">5</button>
+                    <button value="6" class="btn1 btn btn-secondary pt-3 pb-3">6</button>
+                    <button value="-" class="btn1 btn btn-secondary pt-3 pb-3">&ndash;</button>
+                </div>
+                <div class="row_btn">
+                    <button value="1" class="btn1 btn btn-secondary pt-3 pb-3">1</button>
+                    <button value="2" class="btn1 btn btn-secondary pt-3 pb-3">2</button>
+                    <button value="3" class="btn1 btn btn-secondary pt-3 pb-3">3</button>
+                    <button value="+" class="btn1 btn btn-secondary pt-3 pb-3">+</button>
+                </div>
+                <div class="row_btn">
+                    <button value="0" class="btn1 btn btn-secondary pt-3 pb-3">0</button>
+                    <button value="." class="btn1 btn btn-secondary pt-3 pb-3">.</button>
+                    <button type="button" class="del_btn btn btn-danger pt-3 pb-3">
+                        <i class="fas fa-backspace"></i>
+                    </button>
+                    <button class="equal btn btn-success pt-3 pb-3">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
